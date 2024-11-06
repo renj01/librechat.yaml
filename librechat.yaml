@@ -18,7 +18,7 @@ endpoints:
     # Pieces
     # # Model list: https://console.anyscale.com/v2/playground
     - name: "Pieces"
-      apiKey: "${RENJ_API_KEY}"
+      apiKey: "${ANYSCALE_API_KEY}"
       baseURL: "https://api-renj.vercel.app/bruh/v1"
       models:
         default: [
